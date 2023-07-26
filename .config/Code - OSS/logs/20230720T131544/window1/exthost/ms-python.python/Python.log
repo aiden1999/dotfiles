@@ -1,0 +1,60 @@
+2023-07-20 13:20:59.594 [info] Test server listening.
+2023-07-20 13:20:59.626 [info] > conda info --json
+2023-07-20 13:20:59.682 [info] Found: /bin/python --> /bin/python3.11
+2023-07-20 13:20:59.693 [info] Found: /bin/python3 --> /bin/python3.11
+2023-07-20 13:20:59.694 [info] Found: /bin/python3.11 --> /bin/python3.11
+2023-07-20 13:20:59.754 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-20 13:20:59.764 [info] Found: /sbin/python --> /sbin/python3.11
+2023-07-20 13:20:59.765 [info] Found: /sbin/python3 --> /sbin/python3.11
+2023-07-20 13:20:59.765 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2023-07-20 13:20:59.785 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2023-07-20 13:20:59.786 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2023-07-20 13:20:59.788 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2023-07-20 13:20:59.820 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-20 13:20:59.820 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-20 13:20:59.820 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-20 13:20:59.820 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-20 13:20:59.820 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-20 13:20:59.821 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-07-20 13:20:59.821 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-07-20 13:20:59.821 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-07-20 13:20:59.860 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2023-07-20 13:20:59.860 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2023-07-20 13:20:59.862 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11
+2023-07-20 13:20:59.912 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/pythonFiles/interpreterInfo.py
+2023-07-20 13:20:59.947 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/pythonFiles/interpreterInfo.py
+2023-07-20 13:21:00.137 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/pythonFiles/interpreterInfo.py
+2023-07-20 13:21:00.168 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/pythonFiles/interpreterInfo.py
+2023-07-20 13:21:00.358 [error] [
+  'Failed to activate a workspace, Class name = g, completed in 799ms, has a falsy return value, Arg 1: <Uri:/home/aiden/Repos/timetable-project>, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at I (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:95:44776)
+  	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:26911)
+  	at w.activate (/home/aiden/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/out/client/extension.js:2:807183)
+  	at /home/aiden/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/out/client/extension.js:2:2386
+  	at Array.map (<anonymous>)
+  	at g.activateWorkspace (/home/aiden/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/out/client/extension.js:2:2376)]
+]
+2023-07-20 13:21:00.358 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at I (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:95:44776)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:26911)
+	at w.activate (/home/aiden/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/out/client/extension.js:2:807183)
+	at /home/aiden/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/aiden/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/out/client/extension.js:2:2376)]
+2023-07-20 13:21:00.358 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at I (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:95:44776)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:26911)
+	at w.activate (/home/aiden/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/out/client/extension.js:2:807183)
+	at /home/aiden/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/aiden/.vscode-oss/extensions/ms-python.python-2023.12.0-universal/out/client/extension.js:2:2376)]
+2023-07-20 13:21:00.369 [info] Python interpreter path: /bin/python
+2023-07-20 13:21:00.370 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-20 13:21:02.553 [info] Starting Jedi language server for timetable-project.

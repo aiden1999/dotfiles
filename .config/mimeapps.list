@@ -1,0 +1,7 @@
+[Added Associations]
+application/x-shellscript=org.gnome.gedit.desktop;
+text/plain=org.gnome.gedit.desktop;
+text/x-csrc=org.gnome.gedit.desktop;
+
+[Default Applications]
+text/plain=org.gnome.gedit.desktop

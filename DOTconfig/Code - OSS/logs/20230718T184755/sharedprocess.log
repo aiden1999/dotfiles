@@ -1,0 +1,31 @@
+2023-07-18 18:47:58.616 [info] Started initializing default profile extensions in extensions installation folder. file:///home/aiden/.vscode-oss/extensions
+2023-07-18 18:47:59.517 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/aiden/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/aiden/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-07-18 18:47:59.519 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/aiden/.vscode-oss/extensions
+2023-07-18 18:48:45.775 [info] Getting Manifest... arcticicestudio.nord-visual-studio-code
+2023-07-18 18:48:46.331 [info] Installing extension: arcticicestudio.nord-visual-studio-code
+2023-07-18 18:48:47.567 [info] Extension signature verification is not done: arcticicestudio.nord-visual-studio-code
+2023-07-18 18:48:47.626 [info] Extracted extension to /home/aiden/.vscode-oss/extensions/.9b36e11f-dfca-4491-a5bd-277771e4af3f: arcticicestudio.nord-visual-studio-code
+2023-07-18 18:48:47.633 [info] Renamed to /home/aiden/.vscode-oss/extensions/arcticicestudio.nord-visual-studio-code-0.19.0-universal
+2023-07-18 18:48:47.639 [info] Extracting extension completed. arcticicestudio.nord-visual-studio-code
+2023-07-18 18:48:47.657 [info] Extension installed successfully: arcticicestudio.nord-visual-studio-code
+2023-07-18 22:20:36.299 [info] Getting Manifest... naumovs.color-highlight
+2023-07-18 22:20:36.767 [info] Installing extension: naumovs.color-highlight
+2023-07-18 22:20:37.826 [info] Extension signature verification is not done: naumovs.color-highlight
+2023-07-18 22:20:38.325 [info] Extracted extension to /home/aiden/.vscode-oss/extensions/.fd1cd124-9c03-4fb5-9870-c5cfa04b578b: naumovs.color-highlight
+2023-07-18 22:20:38.348 [info] Renamed to /home/aiden/.vscode-oss/extensions/naumovs.color-highlight-2.6.0-universal
+2023-07-18 22:20:38.350 [info] Extracting extension completed. naumovs.color-highlight
+2023-07-18 22:20:38.367 [info] Extension installed successfully: naumovs.color-highlight
+2023-07-18 22:22:56.883 [info] Getting Manifest... pkief.material-icon-theme
+2023-07-18 22:22:57.269 [info] Installing extension: pkief.material-icon-theme
+2023-07-18 22:22:58.932 [info] Extension signature verification is not done: pkief.material-icon-theme
+2023-07-18 22:23:00.210 [info] Extracted extension to /home/aiden/.vscode-oss/extensions/.fd11d902-2aa2-4753-b383-2519b1dd6a7a: pkief.material-icon-theme
+2023-07-18 22:23:00.234 [info] Renamed to /home/aiden/.vscode-oss/extensions/pkief.material-icon-theme-4.28.0-universal
+2023-07-18 22:23:00.237 [info] Extracting extension completed. pkief.material-icon-theme
+2023-07-18 22:23:00.251 [info] Extension installed successfully: pkief.material-icon-theme
+2023-07-18 22:25:08.122 [info] Getting Manifest... gruntfuggly.todo-tree
+2023-07-18 22:25:08.251 [info] Installing extension: gruntfuggly.todo-tree
+2023-07-18 22:25:09.695 [info] Extension signature verification is not done: gruntfuggly.todo-tree
+2023-07-18 22:25:09.946 [info] Extracted extension to /home/aiden/.vscode-oss/extensions/.a422ef57-43b8-4c85-ab16-ce76cd89eecc: gruntfuggly.todo-tree
+2023-07-18 22:25:09.981 [info] Renamed to /home/aiden/.vscode-oss/extensions/gruntfuggly.todo-tree-0.0.215-universal
+2023-07-18 22:25:09.992 [info] Extracting extension completed. gruntfuggly.todo-tree
+2023-07-18 22:25:10.014 [info] Extension installed successfully: gruntfuggly.todo-tree

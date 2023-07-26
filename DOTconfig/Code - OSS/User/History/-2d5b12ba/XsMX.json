@@ -1,0 +1,27 @@
+{
+    "workbench.colorTheme": "Nord",
+    "window.zoomLevel": 1,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font'",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.menuBarVisibility": "toggle",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pydocstyleEnabled": true,
+    "latex-workshop.linting.chktex.enabled": true,
+    "prettier.tabWidth": 4,
+    "bracketPairColorizer.consecutivePairColors": [
+
+        "()",
+        "[]",
+        "{}",
+        [
+            "#ebcb8b",
+            "#b48ead",
+            "#8fbcbb"
+        ],
+        "#bf616a"
+    ],
+    "editor.renderWhitespace": "trailing",
+    "editor.rulers": []
+}

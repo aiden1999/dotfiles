@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Nord",
+    "window.zoomLevel": 1,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font'",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.menuBarVisibility": "toggle",
+    "git.enableSmartCommit": true
+}

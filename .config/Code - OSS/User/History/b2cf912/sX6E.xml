@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<style-scheme id="nord" name="Nord" version="1.0">
+	<_description>Nord Theme</_description>
+	<style background="#2e3440" foreground="#eceff4" name="text"/>
+	<style background="#d8dee9" name="cursor"/>
+	<style background="#57687e" name="search-match"/>
+	<style background="#434c5e" name="current-line"/>
+	<style background="#434c5e" name="selection"/>
+
+	<style foreground="#a3be8c" name="def:string"/>
+	<style foreground="#d8dee9" name="def:constant"/>
+	<style foreground="#b48ead" name="def:number"/>
+	<style bold="true" foreground="#88c0d0" name="def:statement"/>
+	<style foreground="#81a1c1" name="def:function"/>
+	<style bold="true" foreground="#5e81ac" name="def:preprocessor"/>
+	<style foreground="#4c566a" italic="true" name="def:comment"/>
+	<style bold="true" foreground="#8fbcbb" name="def:type"/>
+</style-scheme>

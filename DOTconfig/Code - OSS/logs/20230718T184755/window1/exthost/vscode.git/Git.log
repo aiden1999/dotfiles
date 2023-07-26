@@ -1,0 +1,123 @@
+2023-07-18 18:48:00.289 [info] Log level: Info
+2023-07-18 18:48:00.289 [info] Validating found git in: "git"
+2023-07-18 18:48:00.289 [info] Using git "2.41.0" from "git"
+2023-07-18 19:06:37.726 [info] Log level: Info
+2023-07-18 19:06:37.726 [info] Validating found git in: "git"
+2023-07-18 19:06:37.726 [info] Using git "2.41.0" from "git"
+2023-07-18 19:06:37.726 [info] > git rev-parse --show-toplevel [9ms]
+2023-07-18 19:06:37.743 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2023-07-18 19:06:37.764 [info] Open repository: /home/aiden/Repos/gedit-nord-theme
+2023-07-18 19:06:37.790 [info] > git config --get commit.template [8ms]
+2023-07-18 19:06:37.804 [info] No remotes found in the git config file.
+2023-07-18 19:06:37.812 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2023-07-18 19:06:37.825 [info] > git status -z -uall [4ms]
+2023-07-18 19:06:37.865 [info] > git config --get commit.template [8ms]
+2023-07-18 19:06:37.882 [info] No remotes found in the git config file.
+2023-07-18 19:06:37.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-07-18 19:06:37.895 [info] > git status -z -uall [2ms]
+2023-07-18 19:06:38.288 [info] > git check-ignore -v -z --stdin [2ms]
+2023-07-18 19:06:41.350 [info] > git show --textconv :nord.xml [15ms]
+2023-07-18 19:06:41.362 [info] > git ls-files --stage -- /home/aiden/Repos/gedit-nord-theme/nord.xml [13ms]
+2023-07-18 22:25:21.567 [info] > git check-ignore -v -z --stdin [1ms]
+2023-07-18 22:29:37.148 [info] > git config --get commit.template [2ms]
+2023-07-18 22:29:37.158 [info] No remotes found in the git config file.
+2023-07-18 22:29:37.158 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-07-18 22:29:37.167 [info] > git status -z -uall [2ms]
+2023-07-18 22:58:02.288 [info] No remotes found in the git config file.
+2023-07-18 22:58:02.290 [info] > git config --get commit.template [11ms]
+2023-07-18 22:58:02.291 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-07-18 22:58:02.302 [info] > git status -z -uall [2ms]
+2023-07-18 23:01:17.820 [info] No remotes found in the git config file.
+2023-07-18 23:01:17.821 [info] > git config --get commit.template [8ms]
+2023-07-18 23:01:17.821 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-07-18 23:01:17.830 [info] > git status -z -uall [1ms]
+2023-07-18 23:01:49.993 [info] > git add -A -- . [29ms]
+2023-07-18 23:01:50.027 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [12ms]
+2023-07-18 23:01:50.027 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2023-07-18 23:01:50.049 [info] > git config --get-all user.name [3ms]
+2023-07-18 23:01:50.097 [info] > git config --get commit.template [14ms]
+2023-07-18 23:01:50.110 [info] No remotes found in the git config file.
+2023-07-18 23:01:50.111 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-07-18 23:01:50.127 [info] > git status -z -uall [3ms]
+2023-07-18 23:01:53.511 [info] > git config --get commit.template [6ms]
+2023-07-18 23:01:53.520 [info] No remotes found in the git config file.
+2023-07-18 23:01:53.522 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-07-18 23:01:53.533 [info] > git status -z -uall [2ms]
+2023-07-18 23:01:53.600 [info] > git ls-files --stage -- /home/aiden/Repos/gedit-nord-theme/nord.xml [3ms]
+2023-07-18 23:01:53.613 [info] > git cat-file -s e2fcdaf00a731c97087d4b04e1c32bd6ab430490 [2ms]
+2023-07-18 23:01:53.645 [info] > git show --textconv :nord.xml [4ms]
+2023-07-18 23:04:35.874 [info] > git config --get commit.template [21ms]
+2023-07-18 23:04:35.888 [info] No remotes found in the git config file.
+2023-07-18 23:04:35.889 [info] > git ls-files --stage -- /home/aiden/Repos/gedit-nord-theme/nord.xml [17ms]
+2023-07-18 23:04:35.905 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2023-07-18 23:04:35.919 [info] > git status -z -uall [6ms]
+2023-07-18 23:04:35.919 [info] > git cat-file -s e2fcdaf00a731c97087d4b04e1c32bd6ab430490 [16ms]
+2023-07-18 23:04:35.944 [info] > git show --textconv :nord.xml [5ms]
+2023-07-18 23:04:40.953 [info] No remotes found in the git config file.
+2023-07-18 23:04:40.954 [info] > git config --get commit.template [12ms]
+2023-07-18 23:04:40.955 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-07-18 23:04:40.969 [info] > git status -z -uall [2ms]
+2023-07-18 23:07:05.730 [info] > git config --get commit.template [18ms]
+2023-07-18 23:07:05.739 [info] No remotes found in the git config file.
+2023-07-18 23:07:05.740 [info] > git ls-files --stage -- /home/aiden/Repos/gedit-nord-theme/nord.xml [12ms]
+2023-07-18 23:07:05.754 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2023-07-18 23:07:05.766 [info] > git cat-file -s e2fcdaf00a731c97087d4b04e1c32bd6ab430490 [12ms]
+2023-07-18 23:07:05.768 [info] > git status -z -uall [4ms]
+2023-07-18 23:07:05.789 [info] > git show --textconv :nord.xml [2ms]
+2023-07-18 23:07:10.415 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [6ms]
+2023-07-18 23:07:10.427 [info] > git config --get commit.template [2ms]
+2023-07-18 23:07:10.453 [info] No remotes found in the git config file.
+2023-07-18 23:07:10.454 [info] > git config --get commit.template [10ms]
+2023-07-18 23:07:10.455 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-07-18 23:07:10.469 [info] > git status -z -uall [4ms]
+2023-07-18 23:07:10.660 [info] No remotes found in the git config file.
+2023-07-18 23:07:10.662 [info] > git config --get commit.template [16ms]
+2023-07-18 23:07:10.663 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-07-18 23:07:10.679 [info] > git status -z -uall [6ms]
+2023-07-18 23:07:10.847 [info] No remotes found in the git config file.
+2023-07-18 23:07:10.850 [info] > git config --get commit.template [31ms]
+2023-07-18 23:07:10.853 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-07-18 23:07:10.895 [info] > git status -z -uall [3ms]
+2023-07-18 23:07:11.662 [info] > git ls-files --stage -- /home/aiden/Repos/gedit-nord-theme/nord.xml [1ms]
+2023-07-18 23:07:11.670 [info] > git cat-file -s e2fcdaf00a731c97087d4b04e1c32bd6ab430490 [2ms]
+2023-07-18 23:07:11.681 [info] > git show --textconv :nord.xml [1ms]
+2023-07-18 23:07:29.821 [info] > git remote add origin https://github.com/aiden1999/gedit-nord-theme.git [8ms]
+2023-07-18 23:07:29.849 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-07-18 23:07:29.850 [info] > git config --get commit.template [17ms]
+2023-07-18 23:07:29.866 [info] > git status -z -uall [3ms]
+2023-07-18 23:07:30.822 [info] > git push -u origin master [937ms]
+2023-07-18 23:07:30.822 [info] /bin/sh: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+/bin/sh: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+To https://github.com/aiden1999/gedit-nord-theme.git
+ * [new branch]      master -> master
+2023-07-18 23:07:30.838 [info] > git config --get commit.template [4ms]
+2023-07-18 23:07:30.852 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-07-18 23:07:30.866 [info] > git status -z -uall [2ms]
+2023-07-18 23:07:31.984 [info] > git config --get commit.template [2ms]
+2023-07-18 23:07:31.996 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-07-18 23:07:32.011 [info] > git status -z -uall [6ms]
+2023-07-18 23:07:32.082 [info] > git ls-files --stage -- /home/aiden/Repos/gedit-nord-theme/nord.xml [2ms]
+2023-07-18 23:07:32.095 [info] > git cat-file -s e2fcdaf00a731c97087d4b04e1c32bd6ab430490 [2ms]
+2023-07-18 23:07:32.111 [info] > git show --textconv :nord.xml [2ms]
+2023-07-18 23:07:37.214 [info] > git fetch [427ms]
+2023-07-18 23:07:37.233 [info] > git config --get commit.template [10ms]
+2023-07-18 23:07:37.233 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-07-18 23:07:37.243 [info] > git status -z -uall [2ms]
+2023-07-18 23:07:38.360 [info] > git config --get commit.template [3ms]
+2023-07-18 23:07:38.370 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-07-18 23:07:38.382 [info] > git status -z -uall [2ms]
+2023-07-18 23:07:38.461 [info] > git ls-files --stage -- /home/aiden/Repos/gedit-nord-theme/nord.xml [2ms]
+2023-07-18 23:07:38.472 [info] > git cat-file -s e2fcdaf00a731c97087d4b04e1c32bd6ab430490 [1ms]
+2023-07-18 23:07:38.488 [info] > git show --textconv :nord.xml [1ms]

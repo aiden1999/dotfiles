@@ -1,0 +1,144 @@
+2023-07-20 20:46:15.082 [info] Extension host with pid 97298 started
+2023-07-20 20:46:15.082 [info] Skipping acquiring lock for /home/aiden/.config/Code - OSS/User/workspaceStorage/fde162738bc33ad2b26fd4d9962b0bbd.
+2023-07-20 20:46:15.914 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-07-20 20:46:15.928 [info] ExtensionService#_doActivateExtension James-Yu.latex-workshop, startup: false, activationEvent: 'onLanguage:latex'
+2023-07-20 20:46:16.906 [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+2023-07-20 20:46:18.115 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-07-20 20:46:18.120 [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer, startup: true, activationEvent: '*'
+2023-07-20 20:46:18.126 [warning] Could not identify extension for 'vscode' require call from file:///home/aiden/.vscode-oss/extensions/coenraads.bracket-pair-colorizer-1.0.62-universal/out/src/extension.js. These are the extension path mappings: 
+	file:///home/aiden/.vscode-oss/extensions/esbenp.prettier-vscode-9.19.0-universal -> esbenp.prettier-vscode
+	file:///home/aiden/.vscode-oss/extensions/gruntfuggly.todo-tree-0.0.215-universal -> Gruntfuggly.todo-tree
+	file:///home/aiden/.vscode-oss/extensions/james-yu.latex-workshop-9.12.3-universal -> James-Yu.latex-workshop
+	file:///home/aiden/.vscode-oss/extensions/kevinrose.vsc-python-indent-1.18.0-universal -> KevinRose.vsc-python-indent
+	file:///home/aiden/.vscode-oss/extensions/ms-python.python-2023.12.0-universal -> ms-python.python
+	file:///home/aiden/.vscode-oss/extensions/naumovs.color-highlight-2.6.0-universal -> naumovs.color-highlight
+	file:///home/aiden/.vscode-oss/extensions/njpwerner.autodocstring-0.6.1-universal -> njpwerner.autodocstring
+	file:///home/aiden/.vscode-oss/extensions/pkief.material-icon-theme-4.28.0-universal -> PKief.material-icon-theme
+	file:///home/aiden/.vscode-oss/extensions/yzhang.markdown-all-in-one-3.5.1-universal -> yzhang.markdown-all-in-one
+	file:///usr/lib/code/extensions/configuration-editing -> vscode.configuration-editing
+	file:///usr/lib/code/extensions/css-language-features -> vscode.css-language-features
+	file:///usr/lib/code/extensions/debug-auto-launch -> vscode.debug-auto-launch
+	file:///usr/lib/code/extensions/debug-server-ready -> vscode.debug-server-ready
+	file:///usr/lib/code/extensions/emmet -> vscode.emmet
+	file:///usr/lib/code/extensions/extension-editing -> vscode.extension-editing
+	file:///usr/lib/code/extensions/git -> vscode.git
+	file:///usr/lib/code/extensions/git-base -> vscode.git-base
+	file:///usr/lib/code/extensions/github -> vscode.github
+	file:///usr/lib/code/extensions/github-authentication -> vscode.github-authentication
+	file:///usr/lib/code/extensions/grunt -> vscode.grunt
+	file:///usr/lib/code/extensions/gulp -> vscode.gulp
+	file:///usr/lib/code/extensions/html-language-features -> vscode.html-language-features
+	file:///usr/lib/code/extensions/ipynb -> vscode.ipynb
+	file:///usr/lib/code/extensions/jake -> vscode.jake
+	file:///usr/lib/code/extensions/json-language-features -> vscode.json-language-features
+	file:///usr/lib/code/extensions/markdown-language-features -> vscode.markdown-language-features
+	file:///usr/lib/code/extensions/markdown-math -> vscode.markdown-math
+	file:///usr/lib/code/extensions/media-preview -> vscode.media-preview
+	file:///usr/lib/code/extensions/merge-conflict -> vscode.merge-conflict
+	file:///usr/lib/code/extensions/microsoft-authentication -> vscode.microsoft-authentication
+	file:///usr/lib/code/extensions/ms-vscode.js-debug -> ms-vscode.js-debug
+	file:///usr/lib/code/extensions/ms-vscode.js-debug-companion -> ms-vscode.js-debug-companion
+	file:///usr/lib/code/extensions/ms-vscode.vscode-js-profile-table -> ms-vscode.vscode-js-profile-table
+	file:///usr/lib/code/extensions/npm -> vscode.npm
+	file:///usr/lib/code/extensions/php-language-features -> vscode.php-language-features
+	file:///usr/lib/code/extensions/references-view -> vscode.references-view
+	file:///usr/lib/code/extensions/search-result -> vscode.search-result
+	file:///usr/lib/code/extensions/simple-browser -> vscode.simple-browser
+	file:///usr/lib/code/extensions/typescript-language-features -> vscode.typescript-language-features
+
+2023-07-20 20:46:18.162 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+2023-07-20 20:46:18.178 [info] ExtensionService#_doActivateExtension yzhang.markdown-all-in-one, startup: true, activationEvent: 'workspaceContains:README.md'
+2023-07-20 20:46:18.478 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: yzhang.markdown-all-in-one
+2023-07-20 20:46:18.610 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-07-20 20:46:18.649 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-07-20 20:46:18.895 [info] Eager extensions activated
+2023-07-20 20:46:19.187 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-07-20 20:46:19.194 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-07-20 20:46:19.211 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-07-20 20:46:19.300 [info] ExtensionService#_doActivateExtension Gruntfuggly.todo-tree, startup: false, activationEvent: 'onStartupFinished'
+2023-07-20 20:46:19.354 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-07-20 21:08:37.740 [info] Extension host terminating: renderer closed the MessagePort
+2023-07-20 21:08:37.750 [error] An error occurred when deactivating the subscriptions for extension 'Gruntfuggly.todo-tree':
+2023-07-20 21:08:37.754 [error] AggregateError: Encountered errors while disposing of store
+	at I (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:12159)
+	at n.Z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:11285)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:9187
+	at Array.map (<anonymous>)
+	at n.S (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:9175)
+	at n.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:9445)
+	at h.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:1544)
+	at p (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:127:34497)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:127:30636)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367)
+2023-07-20 21:08:37.769 [error] Canceled: Canceled
+	at new l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:99:105905)
+	at s.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:11754)
+	at $.<computed>.j.charCodeAt.$.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:9029)
+	at e.ExtHostCommands.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:99:130078)
+	at e.ExtHostCommands.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:99:129454)
+	at k.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:99:128747)
+	at e.ExtHostCommands.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:99:130664)
+	at e.ExtHostCommands.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:99:129554)
+	at e.ExtHostCommands.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:99:129454)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:24230)
+	at D (/usr/lib/code/extensions/git/dist/main.js:2:1261288)
+	at b.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at d.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:1276121)
+	at /usr/lib/code/extensions/git/dist/main.js:2:1280622
+	at Array.forEach (<anonymous>)
+	at g.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1280608)
+	at r.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:12552)
+	at r.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:12687)
+	at r.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:1263418)
+	at r.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:12687)
+	at I (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:12083)
+	at n.Z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:11285)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:9187
+	at Array.map (<anonymous>)
+	at n.S (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:9175)
+	at n.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:9445)
+	at h.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:1544)
+	at p (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:127:34497)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:127:30636)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-07-20 21:08:37.770 [error] Canceled: Canceled
+	at new l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:99:105905)
+	at s.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:11754)
+	at $.<computed>.j.charCodeAt.$.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:9029)
+	at e.ExtHostCommands.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:99:130078)
+	at e.ExtHostCommands.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:99:129454)
+	at k.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:99:128747)
+	at e.ExtHostCommands.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:99:130664)
+	at e.ExtHostCommands.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:99:129554)
+	at e.ExtHostCommands.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:99:129454)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:24230)
+	at set b [as b] (/usr/lib/code/extensions/github/dist/extension.js:2:152873)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:153583
+	at /usr/lib/code/extensions/git/dist/main.js:2:1348881
+	at b.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at d.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:1276121)
+	at /usr/lib/code/extensions/git/dist/main.js:2:1280622
+	at Array.forEach (<anonymous>)
+	at g.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1280608)
+	at r.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:12552)
+	at r.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:12687)
+	at r.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:1263418)
+	at r.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:12687)
+	at I (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:12083)
+	at n.Z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:11285)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:9187
+	at Array.map (<anonymous>)
+	at n.S (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:9175)
+	at n.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:9445)
+	at h.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:1544)
+	at p (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:127:34497)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:127:30636)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-07-20 21:08:37.770 [info] Extension host with pid 97298 exiting with code 0

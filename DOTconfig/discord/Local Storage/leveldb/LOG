@@ -1,0 +1,5 @@
+2023/07/18-17:24:44.912 10132 Reusing MANIFEST /home/aiden/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/07/18-17:24:44.912 10132 Recovering log #3
+2023/07/18-17:24:44.925 10132 Level-0 table #3: started
+2023/07/18-17:24:44.973 10132 Level-0 table #3: 1755791 bytes OK
+2023/07/18-17:24:44.977 10132 Delete type=0 #3

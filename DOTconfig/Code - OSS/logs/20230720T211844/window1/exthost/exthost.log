@@ -1,0 +1,17 @@
+2023-07-20 21:18:47.995 [info] Extension host with pid 99768 started
+2023-07-20 21:18:47.995 [info] Skipping acquiring lock for /home/aiden/.config/Code - OSS/User/workspaceStorage/fde162738bc33ad2b26fd4d9962b0bbd.
+2023-07-20 21:18:48.496 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-07-20 21:18:48.523 [info] ExtensionService#_doActivateExtension James-Yu.latex-workshop, startup: false, activationEvent: 'onLanguage:latex'
+2023-07-20 21:18:49.759 [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+2023-07-20 21:18:50.481 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-07-20 21:18:50.487 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+2023-07-20 21:18:50.534 [info] ExtensionService#_doActivateExtension yzhang.markdown-all-in-one, startup: true, activationEvent: 'workspaceContains:README.md'
+2023-07-20 21:18:51.342 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: yzhang.markdown-all-in-one
+2023-07-20 21:18:51.593 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-07-20 21:18:51.628 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-07-20 21:18:51.877 [info] Eager extensions activated
+2023-07-20 21:18:52.163 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-07-20 21:18:52.175 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-07-20 21:18:52.198 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-07-20 21:18:52.289 [info] ExtensionService#_doActivateExtension Gruntfuggly.todo-tree, startup: false, activationEvent: 'onStartupFinished'
+2023-07-20 21:18:52.351 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
