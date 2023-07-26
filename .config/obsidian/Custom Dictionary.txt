@@ -1,2 +1,0 @@
-Neovim
-checksum_v1 = 056b1fb165be3785ecbdaa50d0b49546
