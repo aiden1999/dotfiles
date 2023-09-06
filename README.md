@@ -14,8 +14,16 @@ Dotfiles for my Arch config
    - [lxappearance](https://github.com/lxde/lxappearance) - theme selector
  - JetBrainsMono [Nerd Font](https://github.com/ryanoasis/nerd-fonts)
  - [Nordzy](https://github.com/alvatip/Nordzy-icon) and [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) - icons
- - [Rofi]
- - Cursor
+ - [Rofi](https://github.com/davatorium/rofi) - app launcher, power menu
+   - [theme](https://github.com/adi1090x/rofi)
+ - [oreo-nord-cursors](https://github.com/0jdxt/oreo-nord-cursors)
+ - [picom](https://github.com/yshui/picom) - compositor
+ - [Dunst](https://github.com/dunst-project/dunst) - notifications
+
+## Start up
+ - [fallout-grub-theme](https://github.com/shvchk/fallout-grub-theme)
+ - [LightDM](https://github.com/canonical/lightdm) - display manger
+   - [LightDM GTK Greeter](https://github.com/Xubuntu/lightdm-gtk-greeter) - greeter
 
 ## Terminal
  - Terminal emulator
@@ -31,6 +39,4 @@ Dotfiles for my Arch config
 
 ## Other Software
  - [Arch Linux]() - OS 
- - [i3]() - window manager
  - [Firefox]
- - [Grub]
