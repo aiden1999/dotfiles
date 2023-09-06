@@ -1,0 +1,269 @@
+[colours]
+nord0 = #2e3440
+nord1 = #3b4252
+nord2 = #434c5e
+nord3 = #4c566a  
+nord4 = #d8dee9  
+nord5 = #e5e9f0
+nord6 = #eceff4  
+nord7 = #8fbcbb  
+nord8 = #88c0d0  
+nord9 = #81a1c1
+nord10 = #5e81ac 
+nord11 = #bf616a 
+nord12 = #d08770 
+nord13 = #ebcb8b 
+nord14 = #a3be8c 
+nord15 = #b48ead 
+
+[settings]
+screenchange-reload = true
+
+[global/wm]
+margin-top = 5
+margin-bottom = 5
+
+[bar/bottom]
+width = 100%
+height = 30
+bottom = true
+background = ${colours.nord0}
+foreground = ${colours.nord6}
+line-size = 3
+border-size = 0
+font-0 = "JetBrainsMono Nerd Font:size=14;4"
+font-1 = "JetBrainsMono Nerd Font:size=17;4"
+modules-right = rl06 updates-pacman-aurhelper rl64 wireless-network rl48 cpu temperature rl89 memory rl910 filesystem rl103 pulseaudio rl32 battery rl21 date
+modules-left = polypomo lr06
+enable-ipc = true
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;    SEPARATORS     ;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;=====lr06=====
+[module/lr06]
+type = custom/text
+content-background = ${colours.nord0}
+content-foreground = ${colours.nord6}
+content = ""
+content-font = 2
+
+;=====rl06=====
+[module/rl06]
+type = custom/text
+content-background = ${colours.nord0}
+content-foreground = ${colours.nord6}
+content = ""
+content-font = 2
+
+;=====rl21=====
+[module/rl21]
+type = custom/text
+content-background = ${colours.nord2}
+content-foreground = ${colours.nord1}
+content = ""
+content-font = 2
+
+;=====rl32=====
+[module/rl32]
+type = custom/text
+content-background = ${colours.nord3}
+content-foreground = ${colours.nord2}
+content = ""
+content-font = 2
+
+;=====rl103=====
+[module/rl103]
+type = custom/text
+content-background = ${colours.nord10}
+content-foreground = ${colours.nord3}
+content = ""
+content-font = 2
+
+;=====rl910=====
+[module/rl910]
+type = custom/text
+content-background = ${colours.nord9}
+content-foreground = ${colours.nord10}
+content = ""
+content-font = 2
+
+;=====rl89=====
+[module/rl89]
+type = custom/text
+content-foreground = ${colours.nord9}
+content-background = ${colours.nord8}
+content = ""
+content-font = 2
+
+;=====rl48=====
+[module/rl48]
+type = custom/text
+content-background = ${colours.nord4}
+content-foreground = ${colours.nord8}
+content = ""
+content-font = 2
+
+;=====rl64=====
+[module/rl64]
+type = custom/type
+content-background = ${colours.nord6}
+content-foreground = ${colours.nord4}
+content = ""
+content-font = 2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;    BOTTOM MODULES    ;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;=====polypomo=====
+[module/polypomo]
+type = custom/script
+exec = ~/.config/polybar/scripts/polypomo
+tail = true
+label = %output%
+click-left = ~/.config/polybar/scripts/polypomo toggle
+click-right = ~/.config/polybar/scripts/polypomo end
+click-middle = ~/.config/polybar/scripts/polypomo lock
+scroll-up = ~/.config/polybar/scripts/polypomo time +60
+scroll-down = ~/.config/polybar/scripts/polypomo time -60
+label-padding-left = 1
+label-padding-right = 1
+label-foreground = ${colours.nord0}
+label-background = ${colours.nord6}
+
+;=====updates-pacman-aurhelper=====
+[module/updates-pacman-aurhelper]
+type = custom/script
+exec = ~/.config/polybar/scripts/updates-pacman-aurhelper.sh
+interval = 10
+format-background = ${colours.nord6}
+format-foreground = ${colours.nord0}
+format-padding = 1
+
+;=====wireless-network=====
+[module/wireless-network]
+type = internal/network
+interface = wlan0
+format-connected-background = ${colours.nord4}
+format-disconnect-background = ${colours.nord4}
+format-connected = <label-connected>
+format-disconnect = <label-disconnected>
+label-connected = %essid% 󰁅 %downspeed% 󰁝 %upspeed%
+label-connected-foreground = ${colours.nord14}
+label-disconnected = not connected
+label-disconnected-foreground = ${colours.nord11}
+interval = 10
+label-connected-padding = 1
+label-disconnect-padding = 1
+
+;=====cpu=====
+[module/cpu]
+type = internal/cpu
+interval = 10
+label =  %percentage%%
+label-background = ${colours.nord8}
+label-foreground = ${colours.nord0}
+label-padding-left = 1
+
+;=====temperature=====
+[module/temperature]
+type = internal/temperature
+interval = 10
+thermal-zone = 5
+hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon6/temp1_input
+format = <label>
+format-background = ${colours.nord8}
+label = " %temperature-c%"
+label-foreground = ${colours.nord0}
+label-padding-right = 1
+
+;=====memory=====
+[module/memory]
+type = internal/memory
+label-background = ${colours.nord9}
+label =  %percentage_used%% (%used%/%total%)
+interval = 10
+label-foreground = ${colours.nord0}
+label-padding = 1
+
+;=====filesystem=====
+[module/filesystem]
+type = internal/fs
+mount-0 = /
+interval = 10
+fixed-values = false
+format-mounted-background = ${colours.nord10}
+format-mounted-foreground = ${colours.nord0}
+format-mounted = <label-mounted>
+label-mounted = 󰋊 %free% free
+label-mounted-padding = 1
+
+;=====pulseaudio=====
+[module/pulseaudio]
+type = internal/pulseaudio
+sink = alsa_output.pci-0000_00_1b.0.analog-stereo
+interval = 655
+format-volume-padding = 1
+format-muted-padding = 1
+format-muted-background = ${colours.nord3}
+format-volume-background = ${colours.nord3}
+format-volume = <ramp-volume> <label-volume>
+format-muted = <label-muted>
+label-volume = %percentage%%
+label-muted = <label-muted-icon>muted
+label-muted-icon = "󰝟 "
+label-muted-foreground = ${colours.nord13}
+ramp-volume-0 = 󰕿
+ramp-volume-1 = 󰖀
+ramp-volume-2 = 󰕾
+ramp-volume-foreground = ${colours.nord15}
+
+;=====battery=====
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = AC0
+poll-interval = 5
+format-charging-padding = 1
+format-discharging-padding = 1
+format-full-padding = 1
+format-charging-background = ${colours.nord2}
+format-discharging-background = ${colours.nord2}
+format-full-background = ${colours.nord2}
+format-charging = <label-thunder><label-charging>
+format-discharging = <ramp-capacity><label-discharging>
+format-full = <label-full>
+label-full-icon = 󰁹
+label-full-icon-foreground = ${colours.nord14} 
+label-charging = " %percentage%%"
+label-charging-foreground = ${colours.nord6}
+label-thunder = 󰂄
+label-thunder-foreground = ${colours.nord13}
+label-discharging = " %percentage%%"
+label-discharging-foreground = ${colours.nord6}
+label-full = " %percentage%%"
+label-full-foreground = ${colours.nord6}
+ramp-capacity-foreground = ${colours.nord12}
+ramp-capacity-0 = 󰂎
+ramp-capacity-1 = 󰁺
+ramp-capacity-2 = 󰁻
+ramp-capacity-3 = 󰁼
+ramp-capacity-4 = 󰁽
+ramp-capacity-5 = 󰁾
+ramp-capacity-6 = 󰁿
+ramp-capacity-7 = 󰂀
+ramp-capacity-8 = 󰂁
+ramp-capacity-9 = 󰂂
+ramp-capacity-10 = 󰁹
+
+;=====date=====
+[module/date]
+type = internal/date
+date = %Y-%m-%d%
+time = %H:%M %Z
+label = %date% %time%
+label-padding = 1
+label-background = ${colours.nord1}
+
