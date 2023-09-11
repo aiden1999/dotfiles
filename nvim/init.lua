@@ -17,3 +17,7 @@ require "nicovim.lualine"
 require'nvim-tree'.setup {}
 require "nicovim.toggleterm"
 require "nicovim.deadcolumn"
+require "nicovim.cheatsheet"
+require "nicovim.colorizer"
+require "nicovim.icon-picker"
+require "nicovim.trouble"

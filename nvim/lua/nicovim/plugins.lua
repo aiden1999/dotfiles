@@ -50,7 +50,7 @@ return packer.startup(function(use)
     use "nvim-tree/nvim-tree.lua"  -- file explorer
     use "akinsho/bufferline.nvim"  -- bufferline
     use "moll/vim-bbye"
-    use "nvim-lualine/lualine.nvim"
+    use "nvim-lualine/lualine.nvim"  -- status line
     use "akinsho/toggleterm.nvim"  -- terminal
     use "shaunsingh/nord.nvim"  -- colourscheme
     use "hrsh7th/nvim-cmp"  -- completion plugin
@@ -68,17 +68,29 @@ return packer.startup(function(use)
     use "williamboman/mason-lspconfig.nvim"
     use "nvimtools/none-ls.nvim"  -- LSP diagnostics and code actions
     use "tamago324/nlsp-settings.nvim"
-    use "nvim-telescope/telescope.nvim"
+    use "nvim-telescope/telescope.nvim"  -- search
     use "nvim-telescope/telescope-media-files.nvim"
     -- treesitter (cool syntax highlighting)
     use {
         "nvim-treesitter/nvim-treesitter",
         run = ":TSUpdate",
     }
-    use "p00f/nvim-ts-rainbow"
+    use "p00f/nvim-ts-rainbow"  -- coloured brackets
     use "nvim-treesitter/playground"
     use "JoosepAlviste/nvim-ts-context-commentstring"
     use "Bekaboo/deadcolumn.nvim"
+    use "sudormrfbin/cheatsheet.nvim"  -- commands cheatsheet
+    use "NvChad/nvim-colorizer.lua"  -- colour highlighter
+    use "stevearc/dressing.nvim"  -- needed for icon picker
+    use "ziontee113/icon-picker.nvim"  -- select other characters inc emoji 
+    use {
+        'lucastavaresa/simpleIndentGuides.nvim',
+        config = function()
+        vim.opt.list = true -- enable in all buffers
+        require("simpleIndentGuides").setup()
+        end
+    }
+    use "folke/trouble.nvim"
     -- THIS GOES AT THE END
     if PACKER_BOOTSTRAP then
         require("packer").sync()
